@@ -1,0 +1,585 @@
+.background_img {
+  background-color: #EEEEEE;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.col-lg-4 {
+  padding: 0;
+}
+body {
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+p {
+  color: white;
+  line-height: 2rem;
+}
+
+/* title section */
+.logo {
+  width: 40%;
+  min-height: 50%;
+}
+
+.logo2 {
+  visibility: hidden;
+  position: absolute;
+}
+
+.navbarcon {
+  margin-bottom: 80px;
+  padding-bottom: 20px;
+}
+
+.titlecon {
+  padding: 3% 15% 5% 15%;
+  text-align: center;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container2 {
+  position: relative;
+  padding-right: 5%;
+}
+
+.navbar {
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.nav-item {
+  font-family: "Montserrat";
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.home-page {
+  text-align: center;
+}
+
+.home-img-1 {
+  border-radius: 10px;
+}
+
+.home-img2 {
+  border-radius: 10px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.explore-store {
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  right: 5%;
+  top: 70%;
+}
+
+.explore-store-sm {
+  visibility: hidden;
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  right: 5%;
+  top: 65%;
+}
+
+
+
+
+
+/* About Section */
+.aboutUsDiv {
+  text-align: center;
+  background-color: rgba(126, 109, 88, 0.8);
+  padding: 4% 15%;
+}
+.aboutHeading{
+  color: white;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+.aboutHeadingSmall {
+  position: absolute;
+  visibility: hidden;
+}
+
+
+
+
+/* Payment Section */
+.paymentDiv {
+  text-align: center;
+  padding: 8% 15% 0 15%;
+}
+
+.paymentHeading {
+  color: #484848;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.paymentHeadingSmall {
+  position: absolute;
+  visibility: hidden;
+}
+.paymentParagraph {
+  color: #484848;
+  margin-bottom: 0;
+}
+.termsAndConditionLink {
+  font-weight: bold;
+  color: #484848;
+  margin-bottom: 7%;
+}
+
+.paymentsRowDiv {
+  text-align: center;
+  padding: 0 15% 10% 15%;
+}
+
+.rcsCreditImage {
+  width: 98%;
+  border-radius: 3%;
+  margin-bottom: 10%;
+}
+
+.savingsCreditImage {
+  width: 98%;
+  border-radius: 3%;
+  margin-bottom: 10%;
+}
+
+.laybyCreditImage {
+  width: 98%;
+  border-radius: 3%;
+  margin-bottom: 10%;
+}
+
+
+
+.explore-savings-sm {
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+  top: 8%;
+  color: white;
+  background-color: rgba(126, 109, 88, 0.8);
+}
+
+
+
+.explore-rcs-sm {
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  left: 53%;
+  top: 45%;
+}
+
+
+.explore-layby-sm {
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  left: 53%;
+  top: 45%;
+}
+
+
+
+
+/* Brand Section */
+.brandDiv {
+  background-color: rgba(126, 109, 88, 0.8);
+  padding: 8% 15%;
+  text-align: center;
+}
+
+.brandParagraph {
+  line-height: 2rem;
+  margin-bottom: 3%;
+}
+
+.brandHeading {
+  color: white;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.brandHeadingSmall {
+  position: absolute;
+  visibility: hidden;
+}
+
+.brandImages {
+  width: 100%;
+}
+
+.brandDivImg {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+/* Contact Section */
+.contactDiv {
+  padding: 10% 0;
+  text-align: center;
+}
+
+.contactInfoHeidelberg {
+  text-align: right;
+  padding-left: 15%;
+  padding-right: 8%;
+  padding-top: 5%;
+}
+
+.contactInfoVilliers {
+  text-align: left;
+  padding-right: 15%;
+  padding-left: 8%;
+  padding-top: 5%;
+}
+
+.contactHeidelberg {
+  color: #474747;
+  line-height: 1.5rem;
+}
+
+.contactVilliers {
+  color: #474747;
+  line-height: 1.5rem;
+}
+
+.contactHeidelbergh5 {
+  color: #474747;
+  padding-bottom: 3%;
+}
+.contactHeidelbergh6 {
+  color: #474747;
+  padding-top: 4%;
+}
+
+.contactVilliersh5 {
+  color: #474747;
+  padding-bottom: 3%;
+}
+.contactVilliersh6 {
+  color: #474747;
+  padding-top: 11%;
+}
+
+.facebookLink {
+  color: #474747;
+  padding-top: 5%;
+}
+/* Media Section */
+
+@media (max-width:991px) {
+  p {
+    line-height: 1.5rem;
+  }
+  /* Navbar and Title Section */
+  .navbar-brand {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .logo2 {
+    visibility: visible;
+    position: relative;
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+  }
+
+  .navbar {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .navbarcon {
+    margin-bottom: 0;
+  }
+
+  .titlecon {
+    padding: 5% 2% 9% 2%;
+  }
+
+.explore-store {
+  visibility: hidden;
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  right: 5%;
+  top: 60%;
+}
+.explore-store-sm {
+  visibility: visible;
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  right: 7%;
+  top: 65%;
+}
+
+.home-img-1 {
+  position: absolute;
+  visibility: hidden;
+}
+
+.home-img2 {
+  border-radius: 10px;
+  position: relative;
+  visibility: visible;
+}
+
+/* About Section */
+.aboutUsDiv {
+  text-align: center;
+  background-color: rgba(126, 109, 88, 0.8);
+  padding: 20% 15%;
+}
+.aboutHeading{
+  position: absolute;
+  visibility: hidden;
+}
+.aboutHeadingSmall {
+  position: relative;
+  visibility: visible;
+  color: white;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+/* Payment Section */
+.paymentHeading {
+  position: absolute;
+  visibility: hidden;
+}
+
+.paymentHeadingSmall {
+  position: relative;
+  visibility: visible;
+  color: #484848;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+.paymentDiv {
+  text-align: center;
+  padding: 20% 15% 8% 15%;
+}
+
+
+
+.explore-savings-sm {
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+  top: 8%;
+  color: white;
+  background-color: rgba(126, 109, 88, 0.8);
+}
+
+
+
+.explore-rcs-sm {
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  left: 71%;
+  top: 44%;
+}
+
+
+.explore-layby-sm {
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  left: 71%;
+  top: 44%;
+}
+
+/* Brand Section */
+.brandDiv {
+  background-color: rgba(126, 109, 88, 0.8);
+  padding: 11% 15%;
+  text-align: center;
+}
+
+.brandParagraph {
+  line-height: 1.5rem;
+  margin-bottom: 3%;
+}
+
+.brandHeading {
+  position: absolute;
+  visibility: hidden;
+}
+
+.brandHeadingSmall {
+  position: relative;
+  visibility: visible;
+  color: white;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  margin-bottom: 8%;
+}
+
+.explore-store-brand {
+  margin-top: 5%;
+}
+
+}
+
+@media (max-width:729px) {
+
+  .logo2 {
+    width: 70%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+
+
+  .explore-rcs-sm {
+    font-family: "Montserrat";
+    position: absolute;
+    z-index: 1;
+    left: 66%;
+    top: 44%;
+  }
+
+
+  .explore-layby-sm {
+    font-family: "Montserrat";
+    position: absolute;
+    z-index: 1;
+    left: 66%;
+    top: 44%;
+  }
+
+}
+
+@media (max-width:587px) {
+
+  .logo2 {
+    width: 75%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+
+
+  .explore-rcs-sm {
+    font-family: "Montserrat";
+    position: absolute;
+    z-index: 1;
+    left: 61%;
+    top: 44%;
+  }
+
+
+  .explore-layby-sm {
+    font-family: "Montserrat";
+    position: absolute;
+    z-index: 1;
+    left: 61%;
+    top: 44%;
+  }
+
+}
+
+@media (max-width:500px) {
+
+  .logo2 {
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+
+  .explore-rcs-sm {
+    font-family: "Montserrat";
+    position: absolute;
+    z-index: 1;
+    left: 57%;
+    top: 44%;
+  }
+
+
+  .explore-layby-sm {
+    font-family: "Montserrat";
+    position: absolute;
+    z-index: 1;
+    left: 57%;
+    top: 44%;
+  }
+
+}
+
+@media (max-width:480px) {
+
+  .logo2 {
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+
+  .explore-rcs-sm {
+    font-family: "Montserrat";
+    position: absolute;
+    z-index: 1;
+    left: 55%;
+    top: 44%;
+  }
+
+
+  .explore-layby-sm {
+    font-family: "Montserrat";
+    position: absolute;
+    z-index: 1;
+    left: 55%;
+    top: 44%;
+  }
+
+  /* Brand Section */
+
+  .brandDiv {
+    background-color: rgba(126, 109, 88, 0.8);
+    padding: 15% 15%;
+    text-align: center;
+  }
+
+  .brandParagraph {
+    line-height: 1.5rem;
+    margin-bottom: 8%;
+  }
+
+
+
+  .explore-store-brand {
+    margin-top: 5%;
+  }
+
+}
