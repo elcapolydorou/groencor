@@ -330,6 +330,15 @@ p {
 
 /* Media Section */
 @media (max-width:768px) {
+  .logo {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .logo2 {
+    position: relative;
+    visibility: visible;
+  }
   p {
     line-height: 1.5rem;
   }
@@ -445,37 +454,45 @@ p {
   }
 
   .contactInfoHeidelberg {
-    text-align: right;
-    padding-left: 0%;
-    padding-right: 8%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
     padding-top: 5%;
   }
 
   .contactInfoVilliers {
-    text-align: left;
-    padding-right: 0%;
-    padding-left: 8%;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
     padding-top: 5%;
   }
 
   .contactHeidelbergh5 {
     color: #474747;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
+    padding-top: 10%;
   }
 
   .contactHeidelbergh6 {
     color: #474747;
     padding-top: 7%;
+    padding-bottom: 3%;
   }
 
   .contactVilliersh5 {
     color: #474747;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
+    padding-top: 10%;
   }
 
   .contactVilliersh6 {
     color: #474747;
-    padding-top: 21%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+  }
+
+  .facebookLink {
+    padding-top: 10%;
   }
 }
 
